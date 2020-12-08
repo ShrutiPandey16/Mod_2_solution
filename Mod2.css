@@ -1,0 +1,160 @@
+@media(min-width:992px)
+{
+    div{
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: right;
+    font-size: x-large;
+    color: rgb(2, 15, 12);
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+.child1,.child2,.child3{
+    position: relative;
+    width:30%;
+    margin: 15px;
+    border: 3px solid black;
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: large;
+    color:black;
+    background-color: rgb(153, 153, 156);
+    float:left;
+    box-sizing:border-box;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(1, 54, 41);
+}
+.M1,.M2,.M3{
+    width:160px;
+    height:40px;
+    background-color: rgb(212, 214, 75);
+    color: rgb(22, 17, 18);
+    text-align: center;
+    font-size: 30px;
+}
+.M2{
+    background-color:  rgb(207, 46, 34);
+}
+.M3{
+    background-color: rgb(14, 128, 134);
+}
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+    div{
+        position: absolute;
+        top:0;
+        right:0;
+        text-align: right;
+        font-size: x-large;
+        color: rgb(2, 15, 12);
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: xxx-large;
+        color: rgb(1, 54, 41);
+    }
+    .child1,.child2{
+        position: relative;
+        width:46%;
+        margin: 15px;
+        border: 3px solid black;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 10px;
+        text-align: right;
+        font-size: large;
+        color:black;
+        background-color: rgb(153, 153, 156);
+        float:left;
+        box-sizing:border-box;
+
+    }
+    .child3{
+        position: relative;
+        width:95%;
+        margin: 15px;
+        border: 3px solid black;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 10px;
+        text-align: right;
+        font-size: large;
+        color:black;
+        background-color: rgb(153, 153, 156);
+        float:left;
+        box-sizing:border-box;
+    }
+    .M1,.M2,.M3{
+        width:160px;
+        height:40px;
+        background-color: rgb(200, 212, 19);
+        color: rgb(22, 17, 18);
+        text-align: center;
+        font-size: 30px;
+    }
+    .M2{
+        background-color: rgb(207, 46, 34);
+    }
+    .M3{
+        background-color: rgb(14, 128, 134);
+    }
+}
+@media screen and (max-width:767px)
+{
+    div{
+        position: absolute;
+        top:0;
+        right:0;
+        text-align: right;
+        font-size: x-large;
+        color: rgb(2, 15, 12);
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: xxx-large;
+        color: rgb(1, 54, 41);
+    }  
+    .child1,.child2,.child3{
+        position: relative;
+        width:90%;
+        margin: 15px;
+        border: 3px solid black;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 10px;
+        text-align: right;
+        font-size: large;
+        color:black;
+        background-color: rgb(153, 153, 156);
+        float:left;
+        box-sizing:border-box;
+    }
+    .M1,.M2,.M3{
+        width:160px;
+        height:40px;
+        background-color: rgb(200, 212, 19);
+        color: rgb(22, 17, 18);
+        text-align: center;
+        font-size: 30px;
+    }
+    .M2{
+        background-color: rgb(207, 46, 34);
+    }
+    .M3{
+        background-color: rgb(14, 128, 134);
+    }
+}
+}
